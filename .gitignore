@@ -1,0 +1,19 @@
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Gulp / NPM
+node_modules/
+npm-debug.log
+.sass-cache/
+codekit-config.json
+config.codekit
+
+# FED development
+src/
+
+# Ignore IDE generated files
+.idea/

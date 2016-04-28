@@ -1,0 +1,101 @@
+////////////////////////////////////////////////////////////////////////////////
+// SETTINGS
+////////////////////////////////////////////////////////////////////////////////
+
+// Font Imports - Include Google Fonts Here
+
+// Settings
+$wrap-width: 1140px !default;
+$wrap-padding: 0 20px !default;
+$global-radius: 5px !default;
+
+// Text Defaults
+$font-size:           16px !default;
+$font-family-1:       sans-serif !default;
+$font-family-2:       serif !default;
+$font-weight-lighter: lighter !default;
+$font-weight-normal:  normal !default;
+$font-weight-bold:    bold !default;
+
+$paragraph-line-height:   1.4 !default;
+$paragraph-bottom-margin: 18px !default;
+
+// Header
+$h1-font-size:         44px !default;
+$h1-font-size-small:   30px !default;
+
+$h2-font-size:         37px !default;
+$h2-font-size-small:   28px !default;
+
+$h3-font-size:         27px !default;
+$h3-font-size-small:   24px !default;
+
+$h4-font-size:         23px !default;
+$h4-font-size-small:   20px !default;
+
+$h5-font-size:         18px !default;
+$h5-font-size-small:   18px !default;
+
+$h6-font-size:         16px !default;
+$h6-font-size-small:   16px !default;
+
+$header-line-height:   1.6 !default;
+$header-margin-top:    $font-size * 0.2 !default;
+$header-margin-bottom: $font-size * 0.5 !default;
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// COLORS //
+////////////////////////////////////////////////////////////////////////////////
+
+// Const Colors
+$white:     #fff !default;
+$black:     #000 !default;
+$nearblack: #222 !default;
+
+// Main Colors
+$test1:#fff;
+$test2: #fff;
+$test3 : #fff;
+$test4 : #fff ;
+$test5:#fff;
+$test6:#fff;
+$test7:#fff;
+$test8:#fff;
+
+
+// Background Colors
+$html-background: null !default;
+$body-background: null !default;
+$hr-background:   $nearblack !default;
+
+// Link Colors
+$color-link-dark:  #0000ee !default;
+$color-hover-dark: #551a8b !default;
+
+$color-link-light:  #0000ee !default;
+$color-hover-light: #551a8b !default;
+
+// Header Colors
+$color-header-dark: $nearblack !default;
+$color-header-light: $white !default;
+
+// Text Colors
+$color-text-dark:  $nearblack !default;
+$color-text-light: $white !default;
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// other settings
+////////////////////////////////////////////////////////////////////////////////
+
+// sponsors settings
+$logos-height: 150px !default;
+$logos-arrow-color: $black !default;
+
+// fireslider settings
+$fireslider-height-large:  480px !default; //480px set by core
+$fireslider-height-medium: 480px !default;
+$fireslider-height-small:  480px !default;

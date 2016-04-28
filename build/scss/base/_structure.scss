@@ -1,0 +1,133 @@
+////////////////////////////////////////////////////////////////////////////////
+// Structure
+////////////////////////////////////////////////////////////////////////////////
+html {
+	background: $html-background;
+}
+body {
+	background: $body-background;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+.wrap {
+	margin: 0 auto;
+	max-width: $wrap-width;
+  padding: $wrap-padding;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Typography
+////////////////////////////////////////////////////////////////////////////////
+
+// Typography resets
+em, i {
+  font-style: italic;
+  line-height: inherit;
+}
+strong, b {
+  font-weight: bold;
+  line-height: inherit;
+}
+small {
+  font-size: 60%;
+  line-height: inherit;
+}
+// html {
+// 	-webkit-font-smoothing: antialiased;
+// }
+body {
+	font-family: $font-family-1;
+	font-weight: $font-weight-normal;
+	font-size: $font-size;
+	color: $color-text-dark;
+	line-height: $paragraph-line-height;
+}
+// Default Link Styles
+a, a:link, a:visited {
+	color: $color-link-dark;
+	text-decoration: none;
+	&:hover, &:active {
+		color: $color-hover-dark;
+		text-decoration: none;
+	}
+}
+// Container With Dark Background
+.container-dark {
+  color: $white;
+  // light links
+  a, a:link, a:visited {
+    color: $color-link-light;
+    &:hover, &:active {
+      color: $color-hover-light;
+    }
+  }
+  // light headlines
+  h1,h2,h3,h4,h5,h6 {
+    color: $color-header-light;
+  }
+  
+}
+// Default paragraph styles
+p {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: $paragraph-line-height;
+	margin-bottom: $paragraph-bottom-margin;
+}
+
+// Default header styles
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-2;
+	font-weight: $font-weight-bold;
+	color: $color-header-dark;
+	margin-top: $header-margin-top;
+	margin-bottom: $header-margin-bottom;
+	line-height: $header-line-height;
+}
+h1 {
+	font-size: $h1-font-size;
+	@include small-down {
+		font-size: $h1-font-size-small;
+	}
+}
+h2 {
+	font-size: $h2-font-size;
+	@include small-down {
+		font-size: $h2-font-size-small;
+	}
+}
+h3 {
+	font-size: $h3-font-size;
+	@include small-down {
+		font-size: $h3-font-size-small;
+	}
+}
+h4 {
+	font-size: $h4-font-size;
+	@include small-down {
+		font-size: $h4-font-size-small;
+	}
+}
+h5 {
+	font-size: $h5-font-size;
+	@include small-down {
+		font-size: $h5-font-size-small;
+	}
+}
+h6 {
+	font-size: $h6-font-size;
+	@include small-down {
+		font-size: $h6-font-size-small;
+	}
+}
+
+// Default hr styles
+hr {
+	height: 2px;
+  width: 100%;
+  background: $hr-background;
+  border: none;
+}
